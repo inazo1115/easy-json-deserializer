@@ -34,7 +34,6 @@ public class EasyJsonDeserializer {
     public EasyJsonDeserializer get(String key) throws NullPointerException,
                                                        IllegalTypeException,
                                                        IOException {
-        this.checkNull();
         Map<String, EasyJsonDeserializer> map = this.mapVal();
         EasyJsonDeserializer ret = map.get(key);
         if (ret == null) {
@@ -46,7 +45,6 @@ public class EasyJsonDeserializer {
     public EasyJsonDeserializer index(int idx) throws NullPointerException,
                                                       IllegalTypeException,
                                                       IOException {
-        this.checkNull();
         ArrayList<EasyJsonDeserializer> arr = this.arrayVal();
         if (idx > arr.size() - 1) {
             String s = String.format("out of index: idx(%s), size(%s)", idx, arr.size());
