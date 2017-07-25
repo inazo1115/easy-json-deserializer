@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- The Basics -->
+  <groupId>com.github.inazo1115</groupId>
+  <artifactId>easy_json_deserializer</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.1</version>
+    </dependency>
+  </dependencies>
+  <!-- parent></parent -->
+  <!-- dependencyManagement></dependencyManagement -->
+  <!-- modules></modules -->
+  <properties>
+    <java.version>1.8</java.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <!-- Build Settings -->
+  <build></build>
+  <reporting></reporting>
+
+  <!-- More Project Information -->
+  <name>easy_json_deserializer</name>
+  <description></description>
+  <url></url>
+  <inceptionYear></inceptionYear>
+  <licenses></licenses>
+  <organization></organization>
+  <developers></developers>
+  <contributors></contributors>
+
+  <!-- Environment Settings -->
+  <issueManagement></issueManagement>
+  <ciManagement></ciManagement>
+  <mailingLists></mailingLists>
+  <scm></scm>
+  <prerequisites></prerequisites>
+  <repositories></repositories>
+  <pluginRepositories></pluginRepositories>
+  <distributionManagement></distributionManagement>
+  <profiles></profiles>
+
+</project>
