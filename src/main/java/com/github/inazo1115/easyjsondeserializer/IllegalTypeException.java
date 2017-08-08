@@ -1,4 +1,4 @@
-package com.github.inazo1115.easy_json_deserializer;
+package com.github.inazo1115.easyjsondeserializer;
 
 public class IllegalTypeException extends RuntimeException {
     public IllegalTypeException(String message) {
